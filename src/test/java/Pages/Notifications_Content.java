@@ -30,6 +30,9 @@ public class Notifications_Content extends Parent {
     @FindBy(xpath = "//ms-text-field[@formcontrolname='name']/input")
     private WebElement inputNatificationName;
 
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='name']/input")
+    private WebElement inputCitizenshipName;
+
     @FindBy(xpath = "//ms-save-button/button")
     private WebElement saveButton;
 
@@ -85,6 +88,10 @@ public class Notifications_Content extends Parent {
     @FindBy(xpath = "//div//h3[text()='  Notifications ']")
     private WebElement notificationsPageTitle;
 
+    @FindBy(xpath = "//div//h3[text()='  Citizenships ']")
+    private WebElement citizenshipsPageTitle;
+
+
     @FindBy(xpath = "//mat-select[@role='combobox']")
     private WebElement type;
 
@@ -96,6 +103,19 @@ public class Notifications_Content extends Parent {
 
     @FindBy(xpath = "//button[@class='mat-focus-indicator mr-16 mat-button mat-icon-button mat-button-base ng-star-inserted']")
     private WebElement backbutton;
+
+    @FindBy(xpath = "//span[text()='Setup']")
+    private WebElement setup;
+
+
+    @FindBy(xpath = " (//span[text()='Citizenships'])[1]")
+    private WebElement citizenship;
+
+    @FindBy(xpath = "//ms-text-field[@formcontrolname='shortName']/input")
+    private WebElement citizenshipShortName;
+
+    @FindBy(xpath = "//ms-text-field[@placeholder='GENERAL.FIELD.NAME']//input")
+    private WebElement citizenshipNameSearch;
 
 
 
@@ -147,7 +167,13 @@ public class Notifications_Content extends Parent {
             case "backbutton":
                 currentElemet = backbutton;
                 break;
+            case "setup":
+                currentElemet = setup;
+                break;
 
+            case "citizenship":
+                currentElemet = citizenship;
+                break;
 
 
         }
@@ -173,7 +199,17 @@ public class Notifications_Content extends Parent {
                 currentElemet = description;
                 break;
 
+            case "inputCitizenshipName":
+                currentElemet = inputCitizenshipName;
+                break;
 
+            case "citizenshipShortName":
+                currentElemet = citizenshipShortName;
+                break;
+
+            case "citizenshipNameSearch":
+                currentElemet = citizenshipNameSearch;
+                break;
         }
 
         sendKeysElement(currentElemet, text);
