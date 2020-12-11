@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="libraryTable">
+    <library name="Libraries">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/client-combined-3.141.59.jar!/" />
+        <root url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries" />
+        <root url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/client-combined-3.141.59-sources.jar!/" />
+        <root url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries" />
+      </SOURCES>
+      <jarDirectory url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs" recursive="false" />
+      <jarDirectory url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries" recursive="false" type="SOURCES" />
+    </library>
+    <library name="libs">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs/byte-buddy-1.8.15.jar!/" />
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs/commons-exec-1.3.jar!/" />
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs/guava-25.0-jre.jar!/" />
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs/okhttp-3.11.0.jar!/" />
+        <root url="jar://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs/okio-1.14.0.jar!/" />
+        <root url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$USER_HOME$/Desktop/DERS/Selenıum/Libraries/libs" recursive="false" />
+    </library>
+  </component>
+</project>
