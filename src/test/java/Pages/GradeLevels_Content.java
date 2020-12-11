@@ -9,13 +9,13 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class _05_GradeLevels_Content extends  Parent{
+public class GradeLevels_Content extends  Parent{
 
     WebElement currentElement;
     List<WebElement> currentList;
 
 
-    public _05_GradeLevels_Content() {
+    public GradeLevels_Content() {
 
         PageFactory.initElements(driver, this);
 
