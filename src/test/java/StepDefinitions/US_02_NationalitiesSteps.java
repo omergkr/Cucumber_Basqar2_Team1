@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 
 import java.util.List;
 
-public class US_02_Nationalities_Steps {
+public class US_02_NationalitiesSteps {
 
     Nationalities_Content nationalitiesContent = new Nationalities_Content();
 

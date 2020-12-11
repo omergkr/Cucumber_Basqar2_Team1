@@ -8,13 +8,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
-public class FeeContent extends Parent {
+public class Fees_Content extends Parent {
 
     WebElement currentElement;
    // WebElement myElement;
   //  List<WebElement> currentList;
 
-    public FeeContent() {
+    public Fees_Content() {
 
         PageFactory.initElements(driver, this);
 
