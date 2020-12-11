@@ -1,8 +1,7 @@
 package StepDefinitions;
 
-import Pages._05_GradeLevels_Content;
+import Pages.GradeLevels_Content;
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -10,7 +9,7 @@ import cucumber.api.java.en.When;
 import java.util.List;
 
 public class Us_05_GradeLevelSteps {
-    _05_GradeLevels_Content gradeLevels_content=new _05_GradeLevels_Content();
+    GradeLevels_Content gradeLevels_content=new GradeLevels_Content();
 
 
     @When("^click on button with button at Grade Level$")
