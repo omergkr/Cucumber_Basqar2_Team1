@@ -6,7 +6,6 @@ Feature: Fees functionality
     Then Navigate to Fee page
 
 
-
   Scenario: US_3 TC_01
     When  Create a new Fees
 

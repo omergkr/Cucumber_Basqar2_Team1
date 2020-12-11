@@ -14,7 +14,7 @@ Feature: Login Functionality
     When When User Create a Discount name as "<DescriptionName>"  name as "<integrationCode>" name as "<Priority>"
     And  Discount Succes message should be displayed
     Examples:
-      | DescriptionName  | integrationCode | Priority |
+      | DescriptionName        | integrationCode | Priority |
       | Kleidung Kinder Garten | 201             | 1        |
 
 
@@ -24,8 +24,8 @@ Feature: Login Functionality
     And Discount Succes message should be displayed
 
     Examples:
-      | DescriptionName |
-      | Kleidung Kinder Garten  |
+      | DescriptionName        |
+      | Kleidung Kinder Garten |
 
 
   Scenario Outline:  Us_04_TC_04 User should be able to delete an existant Discount
