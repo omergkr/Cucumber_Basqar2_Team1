@@ -47,7 +47,7 @@ public class Parent {
     }
     public void sendKeysElement(WebElement element,String text){
         waitUntilVisible(element);
-        //scrollToElement(element);
+        scrollToElement(element);
         element.clear();
         element.sendKeys(text);
 
