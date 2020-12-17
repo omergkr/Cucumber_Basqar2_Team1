@@ -8,12 +8,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Notifications_Content extends Parent {
 
     WebElement currentElemet;
     List<WebElement> currentList;
+    List<WebElement> firstnameList;
     By currentolocater;
 
     public Notifications_Content() {
@@ -133,6 +135,7 @@ public class Notifications_Content extends Parent {
                 break;
             case "searchButton":
                 currentElemet = searchButton;
+                firstnameList=namelist;
                 break;
             case "deletButton":
                 currentElemet = deletButton;
@@ -293,11 +296,23 @@ public class Notifications_Content extends Parent {
 
         }
 
-        for (WebElement n : currentList) {
+        if (currentList.size()==0)
+        {
+            List<String> list=new ArrayList<>();
+            for (WebElement n : firstnameList) {
+              list.add(n.getText());
 
-            Assert.assertTrue(n.getText().contains(text));
+            }
+          Assert.assertFalse(list.contains(text));
+
         }
 
+        else {
+            for (WebElement n : currentList) {
+
+                Assert.assertTrue(n.getText().contains(text));
+            }
+        }
 
     }
 
