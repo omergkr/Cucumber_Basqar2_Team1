@@ -44,13 +44,6 @@ public class US_02_NationalitiesSteps {
         }
 
 
-//    @Then("^Control to verification message$")
-//    public void controlToVerificationMessage(WebElement element, String mesaj) {
-//
-//        nationalitiesContent.verifyElementContainsText(element,mesaj);
-//
-//    }
-
 
     @And("^User edit the nationalities \"([^\"]*)\" to \"([^\"]*)\"$")
     public void userEditTheNationalities(String Nationalities, String newNationalities) {
