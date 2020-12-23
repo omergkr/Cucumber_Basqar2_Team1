@@ -115,7 +115,7 @@ LOGIN KISMI
 
 
     public void find_And_Click_Element(String elementName) {
-
+//*
         switch (elementName) {
 
             case "loginButton":
