@@ -1,9 +1,11 @@
+
 Feature: Notifications Functionality
 
   Background:
     Given Navigate to basqar
     When Enter username and password and click Login button
 
+  @RegressionTest
   Scenario: US_07 TC_01 View Notifications Page
     When click on button with button name
       | messaging     |
@@ -81,7 +83,7 @@ Feature: Notifications Functionality
     Then Control to verification message
       | containsmesaj | successfully |
 
-
+  @SmokeTest
   Scenario: US_07 TC_05 search
     When click on button with button name
       | messaging     |
