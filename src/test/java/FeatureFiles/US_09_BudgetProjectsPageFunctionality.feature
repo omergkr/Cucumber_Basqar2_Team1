@@ -27,6 +27,7 @@ Feature: User should be able to use Budget Projects Page functionality.(Budget-S
       | saveButton         |
     Then User should see "successfully" message
 
+    @SmokeTest
   Scenario: US_09 TC_03 User should not be able to add without Code
 
     When User click on the element
@@ -35,7 +36,7 @@ Feature: User should be able to use Budget Projects Page functionality.(Budget-S
       | budgetProjects |
       | addButton |
     Then Send value to element's inputbox
-      | name        | team1111 |
+      | name        | team1999 |
       | accountCode |  |
     Then check the button as name of "saveButton", should be inactive
 

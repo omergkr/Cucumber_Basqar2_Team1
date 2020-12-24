@@ -11,16 +11,16 @@ Feature: Login Functionality
 
     Then Notation Keys title control
 
-
+  @SmokeTest
   Scenario: US_11 TC_02 (Creat a Notation Keys )
     Given Navigate to Notation Keys page
 
     When Click on Buttons  of Notation Page
       | NotationAddButton |
     Then Send text in   Input Boxes of Notation Page
-      | NotationInputName       | Fatih1 |
-      | NotationInputShortName  | Akar1  |
-      | NotationInputMultiplier | 1      |
+      | NotationInputName       | Fatih19 |
+      | NotationInputShortName  | Akar19  |
+      | NotationInputMultiplier | 1       |
     And Click on Buttons  of Notation Page
       | NotationApplyButton |
     Then Success message should be displayed for Notation Key
