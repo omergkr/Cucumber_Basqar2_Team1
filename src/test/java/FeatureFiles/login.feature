@@ -1,5 +1,5 @@
 Feature: Login Functionality
-
+  @login
   Scenario: Login with valid username and password
 
 

@@ -45,11 +45,6 @@
 [1211/140505.148:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
 [1211/141234.142:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
 [1211/141435.796:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
-[1211/163618.595:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
-[1211/163825.111:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
-[1216/205118.271:ERROR:process_info.cc(359)] UncheckedAllocate
-[1216/205118.283:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\omerg\AppData\Local\Temp\scoped_dir5396_214094632\Crashpad\attachments\7a158f22-ec51-405f-bc14-7465b4d39399: Sistem belirtilen yolu bulamýyor. (0x3)
-[1216/205118.306:ERROR:process_info.cc(359)] UncheckedAllocate
-[1216/212640.313:ERROR:process_info.cc(359)] UncheckedAllocate
-[1216/212640.381:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\omerg\AppData\Local\Temp\scoped_dir6292_1159942204\Crashpad\attachments\ec21457e-7ac3-446a-b978-c47d99d1cb7f: Sistem belirtilen yolu bulamýyor. (0x3)
-[1216/212929.915:ERROR:process_info.cc(359)] UncheckedAllocate
+[1211/194544.149:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1211/194616.422:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1225/000357.944:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\omerg\AppData\Local\Temp\scoped_dir5024_712410729\Crashpad\attachments\34a3c181-20e0-4e08-b4ec-c715cda60243: The system cannot find the path specified. (0x3)
