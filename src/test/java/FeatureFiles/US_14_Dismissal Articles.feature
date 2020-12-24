@@ -7,8 +7,8 @@ Feature: Dismissal Articles  Functionality
 
   Scenario: US_14 TC_01  Dismissal Articlespage
     When Click on the element in the Dismissal Articles page content class
-      | humanResourcess     |
-      | setup               |
+      | humanResourcess   |
+      | setup             |
       | dismissalArticles |
 
     Then User should Dismissal Articles successfully
@@ -16,7 +16,7 @@ Feature: Dismissal Articles  Functionality
 
   Scenario: US_14 TC_02 Create new Dismissal Articles
     When Click on the element in the Dismissal Articles page content class
-      | humanResourcess    |
+      | humanResourcess   |
       | setup             |
       | dismissalArticles |
       | addButtonArticles |
@@ -33,8 +33,8 @@ Feature: Dismissal Articles  Functionality
 
   Scenario: US_14 TC_03 Edit newDismissal Articles
     When Click on the element in the Dismissal Articles page content class
-      | humanResourcess     |
-      | setup               |
+      | humanResourcess   |
+      | setup             |
       | dismissalArticles |
 
     Then User sending the keys in the Dismissal Articles content class
@@ -64,7 +64,7 @@ Feature: Dismissal Articles  Functionality
 
 
 
-
+  @SmokeTest
   Scenario: US_14 TC_05 Dismissal Articles User can find the name with search button
     When Click on the element in the Dismissal Articles page content class
       | humanResourcess     |

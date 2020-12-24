@@ -5,7 +5,7 @@ Feature: Notifications Functionality
     Given Navigate to basqar
     When Enter username and password and click Login button
 
-  @RegressionTest
+
   Scenario: US_07 TC_01 View Notifications Page
     When click on button with button name
       | messaging     |
@@ -58,24 +58,24 @@ Feature: Notifications Functionality
     Then Control to verification message
       | containsmesaj | successfully |
 
-
+  @SmokeTest
   Scenario: US_07 TC_04 delete
     When click on button with button name
       | messaging     |
       | notifications |
       | addbutton     |
     Then Send text with inputbox name
-      | inputNatificationName | omergoker37 |
+      | inputNatificationName | omergkr3 |
     And click on button with button name
       | type           |
       | studentPayment |
     Then Send text with inputbox name
-      | description | natification1 |
+      | description | natification11 |
     And click on button with button name
       | saveButton |
       | backbutton |
     Then Send text with inputbox name
-      | nameSearch | omergoker37 |
+      | nameSearch | omergkr3 |
     And click on button with button name
       | searchButton |
       | deletButton  |

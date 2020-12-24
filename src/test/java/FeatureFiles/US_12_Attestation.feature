@@ -8,7 +8,7 @@ Feature:  Attestation  functionality
       | SetupBtn       |
       | attestationBtn |
 
-
+  @SmokeTest
   Scenario: US_12 TC_01 login
     When page validation Attestations
 

@@ -40,7 +40,7 @@ Feature: Budgets Functionality
       | closeButton |
 
 
-
+  @SmokeTest
   Scenario: US_10 TC_03 Should not Create new Budgets
     When Click on the element in the Budgets content class
       | budget    |
