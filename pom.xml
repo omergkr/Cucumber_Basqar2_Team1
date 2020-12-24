@@ -101,7 +101,7 @@
 
                     <includes>
                         <!-- for  run class or classes-->
-                        <include>**/SmokeTest.java</include>
+                        <include>**/runner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
