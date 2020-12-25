@@ -66,7 +66,7 @@ Feature: Position Categories Functionality
     Then Success Message should be displayed
 
 
-  @SmokeTest
+
   Scenario: US_13 TC_05 User can find the name with search button
     When Click on the element in the position categories content class
       | humanResources     |

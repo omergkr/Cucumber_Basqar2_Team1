@@ -65,17 +65,17 @@ Feature: Notifications Functionality
       | notifications |
       | addbutton     |
     Then Send text with inputbox name
-      | inputNatificationName | omergkr3 |
+      | inputNatificationName | omergkr443 |
     And click on button with button name
       | type           |
       | studentPayment |
     Then Send text with inputbox name
-      | description | natification11 |
+      | description | natification119 |
     And click on button with button name
       | saveButton |
       | backbutton |
     Then Send text with inputbox name
-      | nameSearch | omergkr3 |
+      | nameSearch | omergkr443 |
     And click on button with button name
       | searchButton |
       | deletButton  |
