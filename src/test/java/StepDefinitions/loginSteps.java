@@ -5,7 +5,10 @@ import Utilities.Driver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +22,9 @@ public class loginSteps {
 
         driver = Driver.getDriver();
         driver.get("https://test.basqar.techno.study/");
-        driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1366,784));
+        driver.manage().window().setPosition(new Point(0,0));
+     //   driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
