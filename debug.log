@@ -47,3 +47,7 @@
 [1211/141435.796:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
 [1211/194544.149:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
 [1211/194616.422:ERROR:directory_reader_win.cc(43)] FindFirstFile: Sistem belirtilen yolu bulamýyor. (0x3)
+[1225/003309.602:ERROR:process_info.cc(359)] UncheckedAllocate
+[1225/003309.637:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\omerg\AppData\Local\Temp\scoped_dir14372_116352453\Crashpad\attachments\395b0f3e-12fe-4517-ad71-0fdef1c2ce2d: The system cannot find the path specified. (0x3)
+[1225/003807.661:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1225/003807.663:ERROR:exception_snapshot_win.cc(99)] thread ID 14380 not found in process

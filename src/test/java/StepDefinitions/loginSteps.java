@@ -22,9 +22,9 @@ public class loginSteps {
 
         driver = Driver.getDriver();
         driver.get("https://test.basqar.techno.study/");
-        driver.manage().window().setSize(new Dimension(1366,784));
-        driver.manage().window().setPosition(new Point(0,0));
-     //   driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1920,1080));
+
+        driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
