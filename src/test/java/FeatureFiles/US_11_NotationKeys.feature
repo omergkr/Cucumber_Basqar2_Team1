@@ -18,8 +18,8 @@ Feature: Login Functionality
     When Click on Buttons  of Notation Page
       | NotationAddButton |
     Then Send text in   Input Boxes of Notation Page
-      | NotationInputName       | Fatih19 |
-      | NotationInputShortName  | Akar19  |
+      | NotationInputName       | Fatih29 |
+      | NotationInputShortName  | Akar29  |
       | NotationInputMultiplier | 1       |
     And Click on Buttons  of Notation Page
       | NotationApplyButton |
